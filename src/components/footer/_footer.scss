@@ -1,0 +1,21 @@
+.footerstyles {
+  margin: 150px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  background: rgb(245, 243, 243);
+  padding: 0 20px 0;
+  img {
+    height: 40px;
+  }
+  img.facebook {
+    height: 100px;
+  }
+  img.facebook:hover {
+    height: 110px;
+  }
+  img:hover {
+    height: 50px;
+  }
+}

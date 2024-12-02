@@ -1,0 +1,684 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  font-family: "font-1", sans-serif;
+  padding: 0 50px;
+}
+body a {
+  text-decoration: none;
+}
+body .description-title {
+  text-align: center;
+  margin-bottom: -50px;
+  font-size: 2rem;
+  color: gray;
+}
+
+li {
+  color: black;
+  list-style-type: none;
+  font-size: 0.75rem;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  padding: 0 0 350px;
+  cursor: pointer;
+}
+.navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+.navigation ul .nav-active {
+  position: relative;
+}
+.navigation ul .nav-active::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  position: absolute;
+  border-radius: 10px;
+  background-color: rgb(141, 136, 136);
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-animation: anim 0.3s ease forwards;
+  animation: anim 0.6s ease forwards;
+}
+@-webkit-keyframes anim {
+  to {
+    width: 100%;
+  }
+}
+@keyframes anim {
+  to {
+    width: 100%;
+  }
+}
+.navigation ul :hover {
+  background: black;
+}
+.navigation ul :hover li {
+  color: white;
+}
+.navigation ul li {
+  color: gray;
+}
+.navigation img {
+  margin-top: -60px;
+  height: 350px;
+}
+
+.description .description-conteneur {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #f5f5f5;
+  padding: 150px 0;
+}
+.description .description-conteneur h1 {
+  font-size: 2rem;
+}
+.description .description-conteneur img {
+  height: 500px;
+  width: 27%;
+}
+.description .description-conteneur .description-paragraphe {
+  font-size: 1.5rem;
+  width: 50%;
+  margin-left: 7%;
+}
+.description .description-conteneur .description-paragraphe p {
+  color: gray;
+}
+.description .description-title {
+  text-align: center;
+  margin-bottom: -50px;
+  font-size: 2rem;
+  color: gray;
+}
+.description .description-title::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 7%;
+  background: gray;
+  bottom: 220px;
+  left: 50%;
+  -webkit-transform: translate(-50%) scaleX(0);
+          transform: translate(-50%) scaleX(0);
+  -webkit-animation: baranim 10s ease-in-out forwards;
+          animation: baranim 10s ease-in-out forwards;
+}
+@-webkit-keyframes baranim {
+  to {
+    -webkit-transform: translate(-50%) scaleX(1);
+            transform: translate(-50%) scaleX(1);
+  }
+}
+@keyframes baranim {
+  to {
+    -webkit-transform: translate(-50%) scaleX(1);
+            transform: translate(-50%) scaleX(1);
+  }
+}
+
+.travaux {
+  padding: 90px 0;
+  text-align: center;
+}
+.travaux .gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 105px 0px;
+  gap: 30px;
+}
+.travaux .gallery img {
+  width: 100%;
+}
+.travaux .slide {
+  position: relative;
+}
+.travaux .slide .tagline {
+  background: rgb(83, 83, 100);
+  top: 110px;
+  color: white;
+  font-size: 0.9rem;
+  width: 60%;
+  height: 100px;
+  left: 20%;
+  position: absolute;
+}
+.travaux .description-title-travaux {
+  text-align: center;
+  font-size: 2rem;
+  color: gray;
+}
+.travaux .description-title-travaux::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 7%;
+  bottom: -650px;
+  background: gray;
+  left: 50%;
+  -webkit-transform: translate(-50%) scaleX(0);
+          transform: translate(-50%) scaleX(0);
+  -webkit-animation: baranim 10s ease-in-out forwards;
+          animation: baranim 10s ease-in-out forwards;
+}
+@keyframes baranim {
+  to {
+    -webkit-transform: translate(-50%) scaleX(1);
+            transform: translate(-50%) scaleX(1);
+  }
+}
+
+.competence {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  padding: 50px 0;
+}
+.competence .progress-bar {
+  width: 90%;
+  margin: 0 0 15px 0;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 35px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.competence .progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  background: rgb(225, 86, 35);
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  -webkit-transition: width 0.3s ease;
+  transition: width 0.3s ease;
+}
+.competence .progress h1,
+.competence .progress span {
+  color: white;
+}
+.competence .progress .progre-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 280px;
+}
+.competence .progress .progre-title img {
+  width: 8%;
+}
+.competence img {
+  width: 40%;
+}
+.competence .sect-progres-bar {
+  width: 100%;
+}
+.competence .progress-css {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  background: rgb(9, 110, 181);
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  -webkit-transition: width 0.3s ease;
+  transition: width 0.3s ease;
+}
+.competence .progress-css h1,
+.competence .progress-css span {
+  color: white;
+}
+.competence .progress-css .progre-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 280px;
+}
+.competence .progress-css .progre-title img {
+  width: 8%;
+}
+.competence img {
+  width: 40%;
+}
+.competence .progress-sas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  background: rgb(181, 29, 9);
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  -webkit-transition: width 0.3s ease;
+  transition: width 0.3s ease;
+}
+.competence .progress-sas h1,
+.competence .progress-sas span {
+  color: white;
+}
+.competence .progress-sas .progre-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 280px;
+}
+.competence .progress-sas .progre-title img {
+  width: 8%;
+}
+.competence img {
+  width: 40%;
+}
+.competence .progress-javascript {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  background: rgb(204, 185, 13);
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  -webkit-transition: width 0.3s ease;
+  transition: width 0.3s ease;
+}
+.competence .progress-javascript h1,
+.competence .progress-javascript span {
+  color: white;
+}
+.competence .progress-javascript .progre-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 280px;
+}
+.competence .progress-javascript .progre-title img {
+  width: 8%;
+}
+.competence .progress-react {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  background: rgb(38, 82, 114);
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  -webkit-transition: width 0.3s ease;
+  transition: width 0.3s ease;
+}
+.competence .progress-react h1,
+.competence .progress-react span {
+  color: white;
+}
+.competence .progress-react .progre-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 280px;
+}
+.competence .progress-react .progre-title img {
+  width: 8%;
+}
+.competence .progress-github {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  background: rgb(49, 79, 94);
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  -webkit-transition: width 0.3s ease;
+  transition: width 0.3s ease;
+}
+.competence .progress-github h1,
+.competence .progress-github span {
+  color: white;
+}
+.competence .progress-github .progre-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 280px;
+}
+.competence .progress-github .progre-title img {
+  width: 8%;
+}
+.competence .progress-wordpress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  background: rgb(58, 60, 61);
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  -webkit-transition: width 0.3s ease;
+  transition: width 0.3s ease;
+}
+.competence .progress-wordpress h1,
+.competence .progress-wordpress span {
+  color: white;
+}
+.competence .progress-wordpress .progre-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 280px;
+}
+.competence .progress-wordpress .progre-title img {
+  width: 8%;
+}
+.competence img {
+  width: 40%;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: gray;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 7%;
+  background: gray;
+  bottom: -22px;
+  left: 50%;
+  -webkit-transform: translate(-50%) scaleX(0);
+          transform: translate(-50%) scaleX(0);
+  -webkit-animation: baranim 10s ease-in-out forwards;
+          animation: baranim 10s ease-in-out forwards;
+}
+
+@keyframes baranim {
+  to {
+    -webkit-transform: translate(-50%) scaleX(1);
+            transform: translate(-50%) scaleX(1);
+  }
+}
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+form input {
+  background-color: transparent;
+  border: solid 1px;
+  width: 500px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+form .form-nom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+form .form-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+form .form-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+form textarea {
+  resize: none;
+  width: 500px;
+  height: 180px;
+}
+
+button {
+  background-color: #beb45a;
+  padding: 0.5em 1em;
+}
+
+.form-container {
+  text-align: center;
+  margin: 0 0 60px;
+  padding: 250px 0 0;
+  text-align: center;
+  font-size: 2rem;
+  color: gray;
+  position: relative;
+}
+
+.form-merci {
+  text-align: center;
+}
+
+.form-container::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 7%;
+  background: gray;
+  bottom: -6px;
+  left: 50%;
+  -webkit-transform: translate(-50%) scaleX(0);
+          transform: translate(-50%) scaleX(0);
+  -webkit-animation: baranim 10s ease-in-out forwards;
+          animation: baranim 10s ease-in-out forwards;
+}
+
+@keyframes baranim {
+  to {
+    -webkit-transform: translate(-50%) scaleX(1);
+            transform: translate(-50%) scaleX(1);
+  }
+}
+.footerstyles {
+  margin: 150px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+  background: rgb(245, 243, 243);
+  padding: 0 20px 0;
+}
+.footerstyles img {
+  height: 40px;
+}
+.footerstyles img.facebook {
+  height: 100px;
+}
+.footerstyles img.facebook:hover {
+  height: 110px;
+}
+.footerstyles img:hover {
+  height: 50px;
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    padding: 10px;
+  }
+  body .navigation {
+    padding: 0 0 250px;
+  }
+  body .navigation ul {
+    width: 100%;
+    gap: 10px;
+  }
+  body .navigation ul li {
+    font-size: 0.55rem;
+  }
+  body .navigation img {
+    width: 15%;
+    margin-top: -60px;
+    height: 300px;
+  }
+  body .description .description-conteneur {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .description .description-conteneur img {
+    height: 500px;
+    width: 100%;
+  }
+  body .description .description-conteneur .description-paragraphe {
+    padding: 15px 0 0;
+    width: 100%;
+    margin-left: 0;
+    font-size: 0.9rem;
+  }
+  body .description .description-title {
+    font-size: 1.3rem;
+  }
+  body .description .description-title::after {
+    bottom: 520px;
+  }
+  body .travaux .description-title-travaux::after {
+    bottom: -600px;
+  }
+  body .travaux .gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  body .travaux .gallery img {
+    width: 92%;
+  }
+  body .travaux .gallery .tagline {
+    font-size: 0.9rem;
+    width: 70%;
+    height: 90px;
+    left: 15%;
+    position: absolute;
+  }
+  body .travaux .description-title-travaux {
+    font-size: 1.3rem;
+  }
+  body .competence {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .competence img {
+    width: 92%;
+  }
+  body .title {
+    font-size: 1.3rem;
+  }
+  .footerstyles {
+    height: 100px;
+    gap: 12px;
+    margin: 100px 0 0;
+  }
+  .footerstyles p {
+    font-size: 0.55rem;
+  }
+  .footerstyles img.facebook {
+    height: 70px;
+  }
+  .footerstyles img {
+    height: 30px;
+  }
+  form input {
+    width: 300px;
+  }
+  form textarea {
+    width: 400px;
+  }
+}/*# sourceMappingURL=index.css.map */

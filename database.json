@@ -1,0 +1,22 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "nom": "John Doe",
+      "email": "johndoe@example.com",
+      "message": "Bonjour, je souhaite en savoir plus sur votre service."
+    },
+    {
+      "id": "2",
+      "nom": "Jane Smith",
+      "email": "janesmith@example.com",
+      "message": "J'ai une question sur votre produit."
+    },
+    {
+      "id": "7cd6",
+      "nom": "Bangaly Conde",
+      "email": "condebangaly580@gmail.com",
+      "message": "teste 3"
+    }
+  ]
+}

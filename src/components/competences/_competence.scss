@@ -1,0 +1,204 @@
+.competence {
+  display: flex;
+  gap: 50px;
+  padding: 50px 0;
+  .progress-bar {
+    width: 90%;
+    margin: 0 0 15px 0;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 35px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .progress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: rgba(214, 87, 41, 0.567);
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    transition: width 0.3s ease;
+    h1,
+    span {
+      color: white;
+      
+    }
+    .progre-title {
+      display: flex;
+      width: 280px;
+      img {
+        width: 8%;
+      }
+    }
+  }
+  img {
+    width: 40%;
+  }
+  .sect-progres-bar {
+    width: 100%;
+  }
+
+  .progress-css {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: rgba(9, 109, 181, 0.39);
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    transition: width 0.3s ease;
+    h1,
+    span {
+      color: white;
+    }
+    .progre-title {
+      display: flex;
+      width: 280px;
+      img {
+        width: 8%;
+      }
+    }
+  }
+  img {
+    width: 40%;
+  }
+  
+  .progress-sas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: rgba(181, 29, 9, 0.488);
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    transition: width 0.3s ease;
+    h1,
+    span {
+      color: white;
+    }
+    .progre-title {
+      display: flex;
+      width: 280px;
+      img {
+        width: 8%;
+      }
+    }
+  }
+  img {
+    width: 40%;
+  }
+  .progress-javascript {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: rgba(204, 185, 13, 0.427);
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    transition: width 0.3s ease;
+    h1,
+    span {
+      color: white;
+    }
+    .progre-title {
+      display: flex;
+      width: 280px;
+      img {
+        width: 8%;
+      }
+    }
+  }
+  .progress-react {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: rgba(38, 82, 114, 0.516);
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    transition: width 0.3s ease;
+    h1,
+    span {
+      color: white;
+    }
+    .progre-title {
+      display: flex;
+      width: 280px;
+      img {
+        width: 8%;
+      }
+    }
+  }
+  .progress-github {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: rgba(49, 79, 94, 0.521);
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    transition: width 0.3s ease;
+    h1,
+    span {
+      color: white;
+    }
+    .progre-title {
+      display: flex;
+      width: 280px;
+      img {
+        width: 8%;
+      }
+    }
+  }
+  .progress-wordpress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: rgba(58, 60, 61, 0.489);
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    transition: width 0.3s ease;
+    h1,
+    span {
+      color: white;
+    }
+    .progre-title {
+      display: flex;
+      width: 280px;
+      img {
+        width: 8%;
+      }
+    }
+  }
+  img {
+    width: 40%;
+  }
+  
+}
+.title {
+  text-align: center;
+    font-size: 2rem;
+    color: gray;
+    position: relative;
+
+   
+}
+ .title::after {
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 7%;
+      background: gray;
+      bottom: -22px;
+      left: 50%;
+      transform: translate(-50%) scaleX(0);
+      animation: baranim 10s ease-in-out forwards;
+    }
+    @keyframes baranim {
+      to {
+        transform: translate(-50%) scaleX(1);
+      }
+    }

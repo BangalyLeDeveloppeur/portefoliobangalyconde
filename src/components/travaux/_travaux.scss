@@ -1,0 +1,48 @@
+.travaux {
+  padding: 90px 0;
+  text-align: center;
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 105px 0px;
+    gap: 30px;
+    img {
+      width: 100%;
+    }
+  }
+  .slide {
+    position: relative;
+    .tagline {
+      background: rgb(83, 83, 100);
+      top: 110px;
+      color: white;
+      font-size: 0.9rem;
+      width: 60%;
+      height: 100px;
+      left: 20%;
+      position: absolute;
+    }
+  }
+  .description-title-travaux {
+    text-align: center;
+    //margin-bottom: -50px;
+    font-size: 2rem;
+    color: gray;
+  }
+  .description-title-travaux::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 7%;
+    bottom: -480px;
+    background: gray;
+    left: 50%;
+    transform: translate(-50%) scaleX(0);
+    animation: baranim 10s ease-in-out forwards;
+  }
+  @keyframes baranim {
+    to {
+      transform: translate(-50%) scaleX(1);
+    }
+  }
+}

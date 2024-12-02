@@ -1,0 +1,102 @@
+@media only screen and (max-width: 750px) {
+  body {
+    .navigation {
+      padding: 0 0 100px;
+      ul {
+        width: 100%;
+        gap: 10px;
+        li {
+          font-size: 0.55rem;
+        }
+      }
+    }
+    h1.acro {
+      font-size: 0.8rem;
+      margin: 0 0 110px 0;
+    }
+    .navigation img {
+      width: 15%;
+      margin-top: -60px;
+      height: 300px;
+    }
+
+    .description {
+      .description-conteneur {
+        flex-direction: column;
+
+        img {
+          height: 500px;
+          width: 100%;
+        }
+
+        .description-paragraphe {
+          padding: 15px 0 0;
+          width: 100%;
+          margin-left: 0;
+          font-size: 0.9rem;
+        }
+      }
+      .description-title {
+        font-size: 1.3rem;
+      }
+    }
+    .description .description-title::after {
+      bottom: 520px;
+    }
+    .travaux .description-title-travaux::after {
+      bottom: -600px;
+    }
+
+    padding: 10px;
+
+    .travaux {
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        img {
+          width: 92%;
+        }
+        .tagline {
+          font-size: 0.9rem;
+          width: 70%;
+          height: 90px;
+          left: 15%;
+          position: absolute;
+        }
+      }
+      .description-title-travaux {
+        font-size: 1.3rem;
+      }
+    }
+    .competence {
+      flex-direction: column;
+      img {
+        width: 92%;
+      }
+    }
+    .title {
+      font-size: 1.3rem;
+    }
+  }
+  .footerstyles {
+    height: 100px;
+    gap: 12px;
+    margin: 100px 0 0;
+    p {
+      font-size: 0.55rem;
+    }
+    img.facebook {
+      height: 70px;
+    }
+  }
+  .footerstyles img {
+    height: 30px;
+  }
+
+  form input {
+    width: 300px;
+  }
+  form textarea {
+    width: 400px;
+  }
+}
