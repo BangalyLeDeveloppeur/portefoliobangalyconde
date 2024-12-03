@@ -13,6 +13,7 @@ const Rooter = () => {
           {/* Route pour la page d'erreur */}
           <Route path="*" element={<Error />} />
           </Route>
+          <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
   );
