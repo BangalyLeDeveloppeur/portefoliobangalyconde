@@ -1,10 +1,10 @@
 const slides = [
     {
-      Image: "./imagegalery/slide1.webp",
+      Image: "/portefoliobangalyconde/imagegalery/slide1.webp",
       taglen: "<p><span>Un des projets de mes cours en ligne, pour integrer le front-end de  Gaming Campus </span></p>",
     },
     {
-      Image: "./imagegalery/slide2.webp", // Correction de l'erreur de frappe
+      Image: "./imagegalery/slide2.webp", 
       taglen: "<span>Une projet qui consistait a créer onpage de la start-tup, permettant aux clients d'avoir les informations sur les differentes activitées dans les montagnes. </span>",
     },
     {
