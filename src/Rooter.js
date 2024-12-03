@@ -2,11 +2,11 @@ import React from "react";
 import Error from "./page/Error"
 import Home from "./page/Home"
 import Layout from "./components/layoutt/Layout";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {  Routes, Route, HashRouter } from "react-router-dom";
 
 const Rooter = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
       <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -15,7 +15,7 @@ const Rooter = () => {
           </Route>
           <Route path="*" element={<Error />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
