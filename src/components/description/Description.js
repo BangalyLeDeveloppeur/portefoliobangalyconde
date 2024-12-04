@@ -14,7 +14,7 @@ const Description = () => {
             Pendant mes études de comptabilité, j'ai été attiré par le métier de
             développeur web. C'est la raison pour laquelle j'ai décidé de me
             réorienter dans ce domaine après mes études universitaires.<br></br>{" "}
-            Après avoir suivi une année scolaire à <strong>MyDigitalSchool Annecy</strong>dans le domaine du
+            Après avoir suivi une année scolaire à <strong>MyDigitalSchool Annecy</strong> dans le domaine du
             développement multimédia web. J’ai pris la décision de continuer
             d’apprendre le développement web sur OpenClassRom voir mon CV.
             <br></br> J’apprenais, une sorte de prétexte pour coder beaucoup de
