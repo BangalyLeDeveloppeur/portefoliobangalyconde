@@ -10,11 +10,11 @@ const slides = [
   {
     Image: "/portefoliobangalyconde/imagegalery/slide3.webp",
 
-    taglen: `<span>Créez la page d'accueil d'une agence de voyage BOOKI avec le HTML et CSS en version desktop, tablette et mobile. Permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix. <a href="https://exemple.com" target="_blank">Voir le projet</a></span>`,
+    taglen: `<span>Créez la page d'accueil d'une agence de voyage BOOKI avec le HTML et CSS en version desktop, tablette et mobile. Permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix. <a href="https://github.com/BangalyLeDeveloppeur/Projetbook" target="_blank">Voir le code du projet</a></span>`,
   },
   {
     Image: "/portefoliobangalyconde/imagegalery/slide4.webp",
-    taglen: `<span>Créez une page web dynamique avec JavaScript.ce projet avait pour but de créer une page dyanamique pour une architecte en utilisant JavaScript et communique avec une API.<a href="https://exemple.com" target="_blank">Voir leprojet</a> </span>`,
+    taglen: `<span>Créez une page web dynamique avec JavaScript.ce projet avait pour but de créer une page dyanamique pour une architecte en utilisant JavaScript et communique avec une API.<a href="https://github.com/BangalyLeDeveloppeur/BangalyLeDeveloppeurprojet6.github" target="_blank">Voir le code du projet</a> </span>`,
   },
   {
     Image: "/portefoliobangalyconde/imagegalery/slide5.webp",
@@ -22,7 +22,7 @@ const slides = [
   },
   {
     Image: "/portefoliobangalyconde/imagegalery/slide6.webp",
-    taglen: `<span>Ce site est l'un des projets qu'on a realiaser à MyDigitalSchool. Nous avons travailler sur site, pour Kompaty une ONG humanitaire Burkinabé.<a href="https://exemple.com" target="_blank">Voir leprojet</a></span>`,
+    taglen: `<span>Ce site est l'un des projets qu'on a realiaser à MyDigitalSchool. Nous avons integrer sur site en html et css, pour Kompaty une ONG humanitaire Burkinabé.</span>`,
   },
 ];
 export { slides };
