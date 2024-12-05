@@ -19,7 +19,7 @@ const competence = () => {
             <div className="progress">
               <div className="progre-title">
                 <img src={logoHtml} alt="Logo html "></img>
-                <h1>html</h1>
+                <span>html</span>
               </div>
               
             </div>
@@ -29,7 +29,7 @@ const competence = () => {
             <div className="progress-css">
               <div className="progre-title">
                 <img src={logoCSS} alt="Logo css"></img>
-                <h1>CSS</h1>
+                <span>CSS</span>
               </div>
         
             </div>
@@ -38,7 +38,7 @@ const competence = () => {
             <div className="progress-sas">
               <div className="progre-title">
                 <img src={logosass} alt="Logo sass "></img>
-                <h1>SASS</h1>
+                <span>SASS</span>
               </div>
               
             </div>
@@ -48,7 +48,7 @@ const competence = () => {
             <div className="progress-javascript">
               <div className="progre-title">
                 <img src={logojavascript} alt="Logo javascript"></img>
-                <h1>JAVASCRIPT</h1>
+                <span>JAVASCRIPT</span>
               </div>
              
             </div>
@@ -57,7 +57,7 @@ const competence = () => {
             <div className="progress-react">
               <div className="progre-title">
                 <img src={logoReact} alt="Logo react "></img>
-                <h1>REACT/REDUX</h1>
+                <span>REACT/REDUX</span>
               </div>
               
             </div>
@@ -66,7 +66,7 @@ const competence = () => {
             <div className="progress-github">
               <div className="progre-title">
                 <img src={logoGithub} alt="Logo github"></img>
-                <h1>GITHUB/GIT</h1>
+                <span>GITHUB/GIT</span>
               </div>
              
             </div>
@@ -75,28 +75,28 @@ const competence = () => {
             <div className="progress-wordpress">
               <div className="progre-title">
                 <img src={logoWordpress} alt="Logo wordpress"></img>
-                <h1>WORDPRESS</h1>
+                <span>WORDPRESS</span>
               </div>
             </div>
           </div>
           <div className="progress-bar">
             <div className="progress-wordpress">
               <div className="progre-title">
-                <h1>FIGMA</h1>
+                <span>FIGMA</span>
               </div>
             </div>
           </div>
           <div className="progress-bar">
             <div className="progress-wordpress">
               <div className="progre-title">
-                <h1>ILlUSTRATOR</h1>
+                <span>ILlUSTRATOR</span>
               </div>
             </div>
           </div>
           <div className="progress-bar">
             <div className="progress-wordpress">
               <div className="progre-title">
-                <h1>MONGO DB</h1>
+                <span>MONGO DB</span>
               </div>
             </div>
           </div>

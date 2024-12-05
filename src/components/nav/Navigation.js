@@ -45,11 +45,6 @@ const Navigation = () => {
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500} className="nav-link">
-            CONTACT
-          </Link>
-        </li>
-        <li>
           <a
             href={cv}
             target="_blank"
