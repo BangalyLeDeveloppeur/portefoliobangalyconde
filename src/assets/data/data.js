@@ -5,7 +5,7 @@ const slides = [
   },
   {
     Image: "/portefoliobangalyconde/imagegalery/slide2.webp",
-    taglen: `<span>Un projet qui consistait a créer onpage en html et css de la start-tup, permettant aux clients d'avoir les informations sur les differentes activitées dans les montagnes.<a href="https://exemple.com" target="_blank">Voir leprojet</a> </span>`,
+    taglen: `<span>Un projet qui consistait a créer onpage en html et css de la start-tup, permettant aux clients d'avoir les informations sur les differentes activitées dans les montagnes.<a href="https://github.com/BangalyLeDeveloppeur/projetmontagne" target="_blank">Voir le code du projet</a> </span>`,
   },
   {
     Image: "/portefoliobangalyconde/imagegalery/slide3.webp",
