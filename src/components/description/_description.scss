@@ -11,7 +11,7 @@
     }
 
     img {
-      height: 500px;
+      height: auto;
       width: 27%;
     }
     .description-paragraphe {
@@ -35,7 +35,7 @@
     height: 2px;
     width: 7%;
     background: gray;
-    bottom: 400px;
+    bottom: 43%;
     left: 50%;
     transform: translate(-50%) scaleX(0);
     animation: baranim 10s ease-in-out forwards;

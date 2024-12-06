@@ -6,7 +6,7 @@
         width: 100%;
         gap: 10px;
         li {
-          font-size: 0.55rem;
+          font-size: 0.50rem;
         }
       }
     }
@@ -16,8 +16,9 @@
     }
     .navigation img {
       width: 15%;
-      margin-top: -60px;
-      height: 300px;
+      margin-top: -5px;
+      height: auto;
+      object-fit: cover;
     }
 
     .description {
@@ -25,8 +26,9 @@
         flex-direction: column;
 
         img {
-          height: 500px;
+          height: auto;
           width: 100%;
+          object-fit: cover;
         }
 
         .description-paragraphe {
@@ -41,7 +43,7 @@
       }
     }
     .description .description-title::after {
-      bottom: 53%;
+      bottom: 63%;
     }
     .travaux .description-title-travaux::after {
       bottom: -82%;
@@ -54,7 +56,8 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         img {
-          width: 92%;
+          width: 100%;
+          object-fit: cover;
         }
         .tagline {
           font-size: 0.9rem;
@@ -71,7 +74,9 @@
     .competence {
       flex-direction: column;
       img {
-        width: 92%;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
       }
     }
     .title {
@@ -82,6 +87,7 @@
     height: 100px;
     gap: 12px;
     margin: 100px 0 0;
+    padding: 0;
     p {
       font-size: 0.55rem;
     }
@@ -91,6 +97,7 @@
   }
   .footerstyles img {
     height: 30px;
+    object-fit: cover;
   }
 
   form input {
@@ -98,5 +105,16 @@
   }
   form textarea {
     width: 400px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .description-title-travaux::after {
+    display: none;
+  }
+  .description-title::after {
+    display: none;
+  }
+  .title::after {
+    display: none;
   }
 }

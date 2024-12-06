@@ -9,10 +9,10 @@ const Home = () => {
   return (
     <div>
      
-      <h1 className="acro">
+      <p className="acro">
         Former des interfaces responsives et optimales, engager les utilisateurs
         grâce la navigation intuitive et design interactif.
-      </h1>
+      </p>
       <section id="accueil">
         <section id="presentation">
           <Description />
