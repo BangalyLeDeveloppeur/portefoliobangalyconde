@@ -1,7 +1,7 @@
 const slides = [
   {
     Image: "/portefoliobangalyconde/imagegalery/slide1.webp",
-    taglen: `<><span>L'un des projets de mes cours en ligne, pour integrer le front-end de  Gaming Campus en html et cess .<a href="https://exemple.com" target="_blank">Voir leprojet</a> </span>`,
+    taglen: `<><span>L'un des projets de mes cours en ligne, pour integrer le front-end de  Gaming Campus en html et cess .<a href="https://github.com/BangalyLeDeveloppeur/projetgaming" target="_blank">Voir le code du projet</a> </span>`,
   },
   {
     Image: "/portefoliobangalyconde/imagegalery/slide2.webp",
