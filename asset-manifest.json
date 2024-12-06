@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portefoliobangalyconde/static/css/main.1bcb305f.css",
-    "main.js": "/portefoliobangalyconde/static/js/main.a7cc9e24.js",
+    "main.css": "/portefoliobangalyconde/static/css/main.e7e3644b.css",
+    "main.js": "/portefoliobangalyconde/static/js/main.c3a7f80e.js",
     "static/media/photo Bangaly.webp": "/portefoliobangalyconde/static/media/photo Bangaly.c034f979c2bb22017687.webp",
     "static/media/image ordinateur avec code.webp": "/portefoliobangalyconde/static/media/image ordinateur avec code.52fae2f1fc474dfcbd31.webp",
     "static/media/CV_Conde Bangaly.jpeg": "/portefoliobangalyconde/static/media/CV_Conde Bangaly.2c3940a80cf8847a719d.jpeg",
@@ -18,11 +18,11 @@
     "static/media/logo.webp": "/portefoliobangalyconde/static/media/logo.5debcd7bb1843501e185.webp",
     "static/media/logom.webp": "/portefoliobangalyconde/static/media/logom.7dadaeced3742e864899.webp",
     "index.html": "/portefoliobangalyconde/index.html",
-    "main.1bcb305f.css.map": "/portefoliobangalyconde/static/css/main.1bcb305f.css.map",
-    "main.a7cc9e24.js.map": "/portefoliobangalyconde/static/js/main.a7cc9e24.js.map"
+    "main.e7e3644b.css.map": "/portefoliobangalyconde/static/css/main.e7e3644b.css.map",
+    "main.c3a7f80e.js.map": "/portefoliobangalyconde/static/js/main.c3a7f80e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bcb305f.css",
-    "static/js/main.a7cc9e24.js"
+    "static/css/main.e7e3644b.css",
+    "static/js/main.c3a7f80e.js"
   ]
 }
