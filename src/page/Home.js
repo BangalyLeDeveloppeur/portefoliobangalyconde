@@ -7,7 +7,7 @@ import Travaux from "../components/travaux/Travaux";
 
 const Home = () => {
   return (
-    <div>
+    <div className="retour">
      
       <p className="acro">
         Former des interfaces responsives et optimales, engager les utilisateurs

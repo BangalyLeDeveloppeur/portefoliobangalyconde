@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 10vh;
     padding: 0 0 150px;
     cursor: pointer;
    
@@ -11,7 +11,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 30px;
+      gap: 3vw;
      
       .nav-active {
         position: relative;
@@ -51,11 +51,14 @@
       }
       li{
         color: gray;
+        font-size: 1rem;
       }
     }
-    img{
-      margin-top: -60px;
-      height: 350px;
+    img {
+      margin-top: -4vh; // Ajusté proportionnellement
+      max-height: 35vh; // Adapte à l'écran
+      width: auto; // Préserve les proportions
+      object-fit: contain; // Ajuste sans déformation
     }
   }
   
