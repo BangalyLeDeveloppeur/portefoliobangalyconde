@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footerstyles">
         <img src={logoblan} alt="logo blan de kasa" />
 
-        <p>Adresse: Fuchsenstrasse 6, 9016 Saint.Gallen</p>
+        <p>Adresse: Fuchsenstrasse 6, 9016 Saint-Gall</p>
         <p>Téléphone : +41 78 67 317 86 20</p>
 
         {/* Lien vers Instagram */}

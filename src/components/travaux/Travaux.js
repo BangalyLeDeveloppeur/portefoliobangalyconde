@@ -7,7 +7,7 @@ const Travaux = () => {
 
   return (
     <div className="travaux">
-      <h1 className="description-title-travaux">REALISATIONS</h1>
+      <h1 className="description-title-travaux">RÉALISATIONS</h1>
       <div className="gallery">
         {slides.map((slide, index) => (
           <div

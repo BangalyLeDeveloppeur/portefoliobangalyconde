@@ -10,7 +10,7 @@ import logoWordpress from "../../assets//images/wordpress.webp";
 const competence = () => {
   return (
     <div>
-      <h1 className="title">COMPETENCES</h1>
+      <h1 className="title">COMPÉTENCES</h1>
       <div className="competence">
         <img src={imageOrdinateurAvecCode} alt="Ordinateur affichant du code sur l'ecran "></img>
 
@@ -89,7 +89,7 @@ const competence = () => {
           <div className="progress-bar">
             <div className="progress-wordpress">
               <div className="progre-title">
-                <span>ILlUSTRATOR</span>
+                <span>ILLUSTRATOR</span>
               </div>
             </div>
           </div>

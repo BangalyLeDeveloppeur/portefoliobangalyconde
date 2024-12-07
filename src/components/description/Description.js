@@ -5,7 +5,7 @@ const Description = () => {
   return (
     <div className="description">
       
-      <h1 className="description-title">PRESENTATION</h1>
+      <h1 className="description-title">PRÉSENTATION</h1>
       <div className="description-conteneur">
         <img src={imBangaly} alt="Portrait de Bangaly dans la section description"></img>
         <div className="description-paragraphe">
