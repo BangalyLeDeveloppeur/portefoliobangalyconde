@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portefoliobangalyconde/static/css/main.d98c35ad.css",
+    "main.css": "/portefoliobangalyconde/static/css/main.65a55bd9.css",
     "main.js": "/portefoliobangalyconde/static/js/main.0adf1344.js",
     "static/media/photo Bangaly.webp": "/portefoliobangalyconde/static/media/photo Bangaly.c034f979c2bb22017687.webp",
     "static/media/image ordinateur avec code.webp": "/portefoliobangalyconde/static/media/image ordinateur avec code.52fae2f1fc474dfcbd31.webp",
@@ -18,11 +18,11 @@
     "static/media/logo.webp": "/portefoliobangalyconde/static/media/logo.5debcd7bb1843501e185.webp",
     "static/media/logom.webp": "/portefoliobangalyconde/static/media/logom.7dadaeced3742e864899.webp",
     "index.html": "/portefoliobangalyconde/index.html",
-    "main.d98c35ad.css.map": "/portefoliobangalyconde/static/css/main.d98c35ad.css.map",
+    "main.65a55bd9.css.map": "/portefoliobangalyconde/static/css/main.65a55bd9.css.map",
     "main.0adf1344.js.map": "/portefoliobangalyconde/static/js/main.0adf1344.js.map"
   },
   "entrypoints": [
-    "static/css/main.d98c35ad.css",
+    "static/css/main.65a55bd9.css",
     "static/js/main.0adf1344.js"
   ]
 }
